@@ -23,6 +23,17 @@ conferences:
 Authors may not modify these style files or use templates designed for
 other conferences.
 
+
+## Setup
+
+```bash
+conda activate zinets2
+
+xelatex acl_latex.tex && xelatex acl_latex.tex
+
+
+```
+
 ## Instructions for publications chairs
 
 To adapt the style files for your conference, please fork this repository and
